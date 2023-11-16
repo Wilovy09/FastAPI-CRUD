@@ -19,7 +19,7 @@ class Post(BaseModel):
 
 @app.get("/")
 def read_root():
-    return {"welcome": "Welcome to my first rest API!"}
+    return {"go-to": "/docs"}
 
 @app.get("/posts")
 def get_post():
